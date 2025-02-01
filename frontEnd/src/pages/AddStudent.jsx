@@ -67,7 +67,7 @@ const AddStudent = () => {
 
       setTimeout(() => {
         navigate("/student");
-      }, 1000);
+      }, 2000);
     },
   });
 

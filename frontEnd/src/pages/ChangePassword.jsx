@@ -39,7 +39,7 @@ const ChangePassword = () => {
 
             setTimeout(() => {
                 navigate("/change_password");
-            }, 1000);
+            }, 2000);
         },
     });
 

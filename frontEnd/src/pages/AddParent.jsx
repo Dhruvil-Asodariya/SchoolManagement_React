@@ -58,7 +58,7 @@ const AddParent = () => {
 
             setTimeout(() => {
                 navigate("/parent");
-            }, 1000);
+            }, 2000);
         },
     });
 

@@ -34,7 +34,7 @@ const AddMaterial = () => {
 
             setTimeout(() => {
                 navigate("/material");
-            }, 1000);
+            }, 2000);
         },
     });
 

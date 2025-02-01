@@ -35,7 +35,7 @@ const AddHoliday = () => {
 
             setTimeout(() => {
                 navigate("/holiday");
-            }, 1000);
+            }, 2000);
         },
     });
 

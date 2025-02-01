@@ -57,7 +57,7 @@ const AddTeacher = () => {
 
       setTimeout(() => {
         navigate("/teacher");
-      }, 1000);
+      }, 2000);
     },
   });
 

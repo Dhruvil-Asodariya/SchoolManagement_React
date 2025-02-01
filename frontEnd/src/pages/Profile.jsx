@@ -78,7 +78,7 @@ const Profile = () => {
 
             setTimeout(() => {
                 imgnavigate("/admin_profile");
-            }, 1000);
+            }, 2000);
         },
     });
 
