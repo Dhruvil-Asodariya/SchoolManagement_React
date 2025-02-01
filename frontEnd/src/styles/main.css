@@ -1,0 +1,69 @@
+.mc {
+    color: white;
+    background-color: rgb(36, 117, 197);
+}
+
+.mc:hover {
+    color: white;
+    background-color: rgb(31, 79, 128);
+}
+
+.btn-color {
+    background-color: rgb(31, 79, 128);
+    color: white
+}
+
+.btn-color:hover {
+    background-color: rgb(36, 117, 197);
+    color: white;
+}
+
+.stu-button{
+    margin-left: 1270px;
+}
+
+.link-btn{
+    color: white;
+    text-decoration: none;
+}
+
+.action-color{
+    color: white;
+    background-color: rgb(31, 79, 128);
+    margin-right: 10px;
+}
+
+.action-color:hover{
+    color: white;
+    background-color: rgb(36, 117, 197);
+    margin-right: 10px;
+}
+
+.action-link-btn{
+    color: white;
+    text-decoration: none;
+}
+
+.add-student-link{
+    color: white;
+    text-decoration: none;
+}
+
+.text{
+    text-decoration: none;
+}
+
+.forgot-text{
+    text-decoration: none;
+    color: rgb(31, 79, 128);
+}
+
+.forgot-text:hover{
+    color: rgb(36, 117, 197);
+}
+
+.error{
+    color: rgb(197, 36, 36);
+}
+
+
