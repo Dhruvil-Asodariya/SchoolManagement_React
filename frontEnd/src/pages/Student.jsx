@@ -66,8 +66,12 @@ const Student = () => {
             name: "Action",
             cell: () => (
                 <div className="d-flex gap-2">
-                    <button className="btn btn-sm btn-primary"><FaEdit /></button>
-                    <button className="btn btn-sm btn-danger"><FaTrash /></button>
+                    <Link to={"/edit_student"}>
+                        <button className="btn btn-sm btn-primary"><FaEdit /></button>
+                    </Link>
+                    <Link>
+                        <button className="btn btn-sm btn-danger"><FaTrash /></button>
+                    </Link>
                 </div>
             ),
         },

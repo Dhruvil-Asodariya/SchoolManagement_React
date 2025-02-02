@@ -33,8 +33,8 @@ const Class = () => {
             });
 
             setTimeout(() => {
+                formik.resetForm();
                 navigate("/class");
-                // window.location.reload();
             }, 2000);
         },
     });

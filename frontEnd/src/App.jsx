@@ -5,6 +5,7 @@ import Student from "./pages/Student";
 import Login from "./pages/Login";
 import Teacher from "./pages/Teacher";
 import AddStudent from "./pages/AddStudent";
+import EditStudent from "./pages/EditStudent";
 import AddTeacher from "./pages/AddTeacher";
 import Parent from "./pages/Parent";
 import AddParent from "./pages/AddParent";
@@ -29,6 +30,7 @@ const App = () => {
         <Route path="/dashboard" element={ <MasterPage><Dashboard /></MasterPage> }/>
         <Route path="/student" element={ <MasterPage><Student /></MasterPage> }/>
         <Route path="/add_student" element={ <MasterPage><AddStudent /></MasterPage> }/>
+        <Route path="/edit_student" element={ <MasterPage><EditStudent /></MasterPage> }/>
         <Route path="/teacher" element={ <MasterPage><Teacher /></MasterPage> }/>
         <Route path="/add_teacher" element={ <MasterPage><AddTeacher /></MasterPage> }/>
         <Route path="/parent" element={ <MasterPage><Parent /></MasterPage> }/>

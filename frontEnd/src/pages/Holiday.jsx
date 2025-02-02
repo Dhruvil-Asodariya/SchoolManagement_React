@@ -49,10 +49,10 @@ const Holiday = () => {
                                         <td scope="row">14-01-2025</td>
                                         <td scope="row">
                                             <Link>
-                                                <button className="btn btn-color action-btn"><FaEdit /></button>
+                                                <button className="btn btn-primary action-btn"><FaEdit /></button>
                                             </Link>
                                             <Link>
-                                                <button className="btn btn-color"><MdDelete /></button>
+                                                <button className="btn btn-danger"><MdDelete /></button>
                                             </Link>
                                         </td>
                                     </tr>
@@ -97,10 +97,10 @@ const Holiday = () => {
                                         <td scope="row">14-01-2025</td>
                                         <td scope="row">
                                             <Link>
-                                                <button className="btn btn-color action-btn"><FaEdit /></button>
+                                                <button className="btn btn-primary action-btn"><FaEdit /></button>
                                             </Link>
                                             <Link>
-                                                <button className="btn btn-color"><MdDelete /></button>
+                                                <button className="btn btn-danger"><MdDelete /></button>
                                             </Link>
                                         </td>
                                     </tr>

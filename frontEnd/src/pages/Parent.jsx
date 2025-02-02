@@ -78,10 +78,10 @@ const Parent = () => {
                                     <td>{teacher.address}</td>
                                     <td scope="row">
                                         <Link>
-                                            <button className="btn btn-color action-btn"><FaEdit /></button>
+                                            <button className="btn btn-primary action-btn"><FaEdit /></button>
                                         </Link>
                                         <Link>
-                                            <button className="btn btn-color action-btn"><MdDelete /></button>
+                                            <button className="btn btn-danger action-btn"><MdDelete /></button>
                                         </Link>
                                     </td>
                                 </tr>
