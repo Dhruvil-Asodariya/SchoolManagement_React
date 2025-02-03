@@ -342,56 +342,6 @@ body {
   color: rgb(31, 79, 128);
 }
 
-.material-div {
-  box-shadow: 8px 8px 20px 1px rgba(0, 0, 0, 0.2);
-  border-radius: 10px;
-  margin: 15px;
-  height: 300px;
-  width: 27%;
-}
-
-.material-sub-div-1 {
-  background-color: #fff;
-  border-radius: 10px 10px 0px 0px;
-  font-size: 20px;
-  height: 225px;
-  color: #fff;
-}
-
-.material-sub-div-2 {
-  background-color: rgb(216, 235, 255);
-  border-radius: 0px 0px 10px 10px;
-  font-size: 20px;
-  height: 75px;
-  color: #fff;
-  display: block;
-}
-
-.material-img {
-  /* margin: 20px; */
-  border-radius: 10px 10px 0px 0px;
-  width: 100%;
-  height: 225px;
-}
-
-.material-title {
-  margin: 20px;
-  font-size: 17px;
-  font-weight: 500;
-  color: rgb(31, 79, 128);
-}
-
-.material-sub-title{
-  margin: 20px;
-  font-size: 17px;
-  font-weight: 500;
-  color: rgb(31, 79, 128);
-}
-
-.download-div{
-  float:right;
-  margin: 22px;
-}
 
 .search-field{
   float: right;
