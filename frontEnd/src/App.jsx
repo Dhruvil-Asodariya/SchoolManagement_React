@@ -19,6 +19,9 @@ import Material from "./pages/Material";
 import Holiday from "./pages/Holiday";
 import AddHoliday from "./pages/AddHoliday";
 import AddMaterial from "./pages/AddMaterial";
+import Logout from "./pages/Logout";
+import Leave from "./pages/Leave";
+
 
 const App = () => {
   return (
@@ -26,7 +29,7 @@ const App = () => {
       <Routes>
         {/* Wrap routes with MasterPage */}
         <Route path="/" element={ <Login /> } />
-        <Route path="/logout" element={ <Login /> } />
+        <Route path="/logout" element={ <Logout /> } />
         <Route path="/dashboard" element={ <MasterPage><Dashboard /></MasterPage> }/>
         <Route path="/student" element={ <MasterPage><Student /></MasterPage> }/>
         <Route path="/add_student" element={ <MasterPage><AddStudent /></MasterPage> }/>
@@ -44,6 +47,7 @@ const App = () => {
         <Route path="/add_material" element={ <MasterPage><AddMaterial /></MasterPage> }/>
         <Route path="/holiday" element={ <MasterPage><Holiday /></MasterPage> }/>
         <Route path="/add_holiday" element={ <MasterPage><AddHoliday /></MasterPage> }/>
+        <Route path="/leave" element={ <MasterPage><Leave /></MasterPage> }/>
       </Routes>
     </Router>
   );

@@ -10,6 +10,7 @@ import { SiGoogleclassroom } from "react-icons/si";
 import { MdSubject, MdCurrencyRupee,MdOutlineLibraryBooks   } from "react-icons/md";
 import { RiLockPasswordLine } from "react-icons/ri";
 import { SlCalender } from "react-icons/sl";
+import { LuNotebookPen } from "react-icons/lu";
 import "./MasterPage.css";
 
 const MasterPage = ({ children }) => {
@@ -26,7 +27,7 @@ const MasterPage = ({ children }) => {
 
     const username = sessionStorage.getItem("role");
 
-// ------------------------------------------------Admin Panel------------------------------------------------
+//  ------------------------------------------------Admin Panel ------------------------------------------------
 
     if(username == "Admin"){
         return (
@@ -128,6 +129,12 @@ const MasterPage = ({ children }) => {
                                         {isSidebarOpen && <span className="link-span">Fees</span>}
                                     </Link>
                                 </li>
+                                <li>
+                                    <Link className="link-li" to="/leave">
+                                        <LuNotebookPen   />
+                                        {isSidebarOpen && <span className="link-span">Leave</span>}
+                                    </Link>
+                                </li>
                             </ul>
                         </nav>
                     </aside>
@@ -210,6 +217,12 @@ const MasterPage = ({ children }) => {
                                         {isSidebarOpen && <span className="link-span">Hiloday</span>}
                                     </Link>
                                 </li>
+                                <li>
+                                    <Link className="link-li" to="/add_leave">
+                                        <LuNotebookPen   />
+                                        {isSidebarOpen && <span className="link-span">Leave</span>}
+                                    </Link>
+                                </li>
                             </ul>
                         </nav>
                     </aside>
@@ -262,6 +275,12 @@ const MasterPage = ({ children }) => {
                                             <span className="dropdown-link-span">Logout</span>
                                         </Link>
                                     </li>
+                                    <li>
+                                    <Link className="link-li" to="/leave">
+                                        <LuNotebookPen   />
+                                        {isSidebarOpen && <span className="link-span">Leave</span>}
+                                    </Link>
+                                </li>
                                 </ul>
                             </div>
                         </div>
@@ -344,6 +363,12 @@ const MasterPage = ({ children }) => {
                                             <span className="dropdown-link-span">Logout</span>
                                         </Link>
                                     </li>
+                                    <li>
+                                    <Link className="link-li" to="/leave">
+                                        <LuNotebookPen   />
+                                        {isSidebarOpen && <span className="link-span">Leave</span>}
+                                    </Link>
+                                </li>
                                 </ul>
                             </div>
                         </div>
@@ -460,6 +485,12 @@ const MasterPage = ({ children }) => {
                                     <Link className="link-li" to="/holiday">
                                         <SlCalender   />
                                         {isSidebarOpen && <span className="link-span">Hiloday</span>}
+                                    </Link>
+                                </li>
+                                <li>
+                                    <Link className="link-li" to="/leave">
+                                        <LuNotebookPen   />
+                                        {isSidebarOpen && <span className="link-span">Leave</span>}
                                     </Link>
                                 </li>
                             </ul>
